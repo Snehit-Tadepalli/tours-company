@@ -1,0 +1,42 @@
+.prenav-container {
+  height: 2rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.prenav-contact {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.prenav-social {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.anchor:link,
+.anchor:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.anchor:hover,
+.anchor:active {
+  color: lightgray;
+}
+
+.email:link,
+.email:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.email:hover,
+.email:active {
+  color: lightgray;
+}
